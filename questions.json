@@ -1,0 +1,78 @@
+[
+    {
+      "question": "Wann schickt ein PC sein Paket an das Standard Gateway?",
+      "answer": "Wenn die Ziel-IP außerhalb des eigenen Subnetzes liegt (z. B. eine Internet-IP)."
+    },
+    {
+      "question": "Was macht der Router mit dem weitergeleiteten Paket?",
+      "answer": "Der Router leitet das Paket ins nächste Netz in Richtung Ziel weiter."
+    },
+    {
+      "question": "Was ist ein UNC-Pfad?",
+      "answer": "Universal Naming Convention — ein standardisiertes Format für Netzwerkpfade."
+    },
+    {
+      "question": "Wofür wird ein UNC-Pfad verwendet?",
+      "answer": "Um auf Netzwerkfreigaben (Ordner, Drucker) im lokalen Netz zuzugreifen."
+    },
+    {
+      "question": "Wie sieht die Syntax eines UNC-Pfads aus?",
+      "answer": "\\\\Servername\\\\Freigabename (z. B. \\\\winm-iso)."
+    },
+    {
+      "question": "Was zeigt ipconfig an?",
+      "answer": "IPv4-Adresse, Subnetzmaske, Standard Gateway."
+    },
+    {
+      "question": "Was zeigt ipconfig /all zusätzlich an?",
+      "answer": "Zusätzlich die MAC-Adresse und den DHCP-Status (ob IP dynamisch oder statisch vergeben)."
+    },
+    {
+      "question": "Was ist eine MAC-Adresse?",
+      "answer": "Die physische, weltweit eindeutige Hardware-Adresse der Netzwerkkarte."
+    },
+    {
+      "question": "Was ist das Protokoll hinter dem ping-Befehl?",
+      "answer": "ICMP (Internet Control Message Protocol)."
+    },
+    {
+      "question": "Was testet ping konkret?",
+      "answer": "Ob ein anderes Gerät erreichbar ist und wie schnell es antwortet (Latenz in ms)."
+    },
+    {
+      "question": "Was macht tracert?",
+      "answer": "Zeigt den vollständigen Weg eines Datenpakets durch alle Router (Hops) bis zum Ziel an."
+    },
+    {
+      "question": "Was bedeutet „hop-by-hop\"?",
+      "answer": "Hop für Hop — jeder Schritt über einen einzelnen Router wird einzeln angezeigt."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen ping und tracert?",
+      "answer": "Ping prüft nur Erreichbarkeit. Tracert zeigt den gesamten Pfad durch alle Zwischenstationen."
+    },
+    {
+      "question": "Wie kommunizieren VMs im NAT-Netzwerk-Modus untereinander?",
+      "answer": "Sie befinden sich im selben virtuellen Netz und können direkt miteinander kommunizieren."
+    },
+    {
+      "question": "Können VMs im NAT-Modus vom echten LAN aus erreicht werden?",
+      "answer": "Nein — vom echten LAN aus ist die VM geschützt und unsichtbar."
+    },
+    {
+      "question": "Was ist der Host-only-Modus?",
+      "answer": "Ein Modus, der nur die Kommunikation zwischen dem Host-PC und den VMs erlaubt."
+    },
+    {
+      "question": "Kann eine VM im Host-only-Modus auf das Internet zugreifen?",
+      "answer": "Nein — es gibt keine Verbindung nach außen."
+    },
+    {
+      "question": "Was ist eine Sandbox im Netzwerkkontext?",
+      "answer": "Eine vollständig isolierte Umgebung ohne jede Verbindung zu realen Netzwerken."
+    },
+    {
+      "question": "Wann ist der Sandbox-Modus sinnvoll?",
+      "answer": "Um potenziell gefährliche oder unbekannte Software sicher zu analysieren."
+    }
+  ]
